@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+#menu-6 {
+.navbar-toggler {
+	color: #000;
+}
+.close-icon::before, .close-icon::after {
+	background-color: #ffffff;
+}
+.link, .dropdown-item {
+	color: #ffffff;
+}
+.link {
+	font-size: 0.75rem;
+}
+.dropdown-item, .nav-dropdown-sm .link {
+	font-size: 0.812rem;
+}
+.link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus {
+	color: @primaryColor;
+}
+.link[aria-expanded="true"], .dropdown-menu {
+	background: #0e0e0e;
+}
+.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {
+	background: #202020!important;
+}
+.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded="true"], .nav-dropdown-sm .dropdown-menu {
+	background: #282828;
+}
+.bg-color.transparent .link {
+	color: #ffffff;
+	transition: none;
+}
+.bg-color.transparent.opened .link {
+	transition: color .2s ease-in-out;
+}
+.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {
+	color: @primaryColor;
+}
+.link[aria-expanded="true"], .dropdown-item[aria-expanded="true"] {
+	color: #c0a375!important;
+}
+}
+
+#header1-7 {
+H1 {
+	color: #0275d8;
+}
+}
+
+
+#ext_menu-1 .navbar-toggler {
+  color: #8f99af;
+}
+#header1-8 H1 {
+  font-size: 48px;
+}
+#msg-box3-z .mbr-header .mbr-header__text {
+  text-align: center;
+}
+#msg-box3-z .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#content4-a P {
+  text-align: center;
+}
+#content4-a SPAN {
+  font-size: 23px;
+}
+#content4-a H4 {
+  text-align: right;
+  font-size: 20px;
+}
+#content4-a B {
+  text-align: center;
+  font-size: 20px;
+}
+#msg-box3-10 .mbr-header .mbr-header__text {
+  text-align: center;
+}
+#msg-box3-10 .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#msg-box4-l .lead UL {
+  text-align: left;
+  font-size: 16px;
+}
+#msg-box4-l .lead P {
+  text-align: left;
+  font-size: 18px;
+}
+#msg-box4-m .lead UL {
+  text-align: left;
+  font-size: 16px;
+}
+#msg-box4-m .lead P {
+  font-size: 18px;
+}
+#content5-13 .mbr-section-title {
+  text-align: center;
+}
+#msg-box3-17 .mbr-header .mbr-header__text {
+  text-align: center;
+}
+#msg-box3-17 .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#custom-html-18 {
+  /* Type valid CSS here */
+}
+#custom-html-18 .my-image {
+  width: 100%;
+}
+#header3-t SMALL {
+  font-size: 20px;
+  text-align: center;
+}
+#header3-t H3 {
+  text-align: center;
+}
+#custom-html-19 {
+  /* Type valid CSS here */
+}
+#custom-html-19 .my-image {
+  width: 100%;
+}
+#msg-box4-u .mbr-section-title {
+  font-family: 'Indie Flower', cursive;
+}
+#msg-box4-u .lead {
+  font-family: 'Indie Flower', cursive;
+}
+#footer1-9 P {
+  color: #000000;
+  text-align: center;
+}

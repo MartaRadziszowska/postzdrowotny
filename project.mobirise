@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "PostZdrowotny.pl",
-    "currentPage": "index.html",
+    "currentPage": "chlapowo2017.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -14,10 +14,6 @@
     "noImageResize": "",
     "cookiesAlert": "Strona używa ciasteczek (cookies). Korzystając ze strony wyrażasz zgodę na korzystanie z cookies, zgodnie z aktualnymi ustawieniami przeglądarki.",
     "google-analytics": "",
-    "publishFtpPath": "public_html",
-    "publishType": "github",
-    "gitHubName": "MartaRadziszowska",
-    "gitHubPath": "onoff",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
   },
@@ -121,7 +117,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/owocki%20i%20warzywka-2000x1272.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/owocki-i-warzywka-2000x1272.jpg",
             "bgColor": "#fff8e0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -219,7 +215,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1200px-beach_in_hel-2000x1500.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/1200px-beach-in-hel-2000x1500.jpg",
             "bgColor": "#fff8e0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -414,7 +410,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/owocki%20i%20warzywka-1400x890.jpg",
+              "src": "@PROJECT_PATH@/assets/images/owocki-i-warzywka-1400x890.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -583,42 +579,42 @@
             "images": [
               {
                 "thumb": "@PROJECT_PATH@/assets/images/dalia-4-2000x1330-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dalia%204-2000x1330.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dalia-4-2000x1330.jpg",
                 "active": false
               },
               {
                 "thumb": "@PROJECT_PATH@/assets/images/dalia-3-2000x1330-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dalia%203-2000x1330.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dalia-3-2000x1330.jpg",
                 "active": false
               },
               {
                 "thumb": "@PROJECT_PATH@/assets/images/dalia-1-2000x1330-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dalia%201-2000x1330.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dalia-1-2000x1330.jpg",
                 "active": false
               },
               {
                 "thumb": "@PROJECT_PATH@/assets/images/dalia-5-2000x1330-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dalia%205-2000x1330.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dalia-5-2000x1330.jpg",
                 "active": false
               },
               {
                 "thumb": "@PROJECT_PATH@/assets/images/dalia-2-2000x1330-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dalia%202-2000x1330.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dalia-2-2000x1330.jpg",
                 "active": false
               },
               {
                 "thumb": "@PROJECT_PATH@/assets/images/dalia-7-2000x1330-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dalia%207-2000x1330.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dalia-7-2000x1330.jpg",
                 "active": false
               },
               {
                 "thumb": "@PROJECT_PATH@/assets/images/dalia-6-2000x1330-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dalia%206-2000x1330.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dalia-6-2000x1330.jpg",
                 "active": true
               },
               {
                 "thumb": "@PROJECT_PATH@/assets/images/dalia-1-2000x1330-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dalia%201-2000x1330.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dalia-1-2000x1330.jpg",
                 "active": false
               }
             ],
@@ -719,7 +715,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/pani%20dajka2-1400x2330.png",
+              "src": "@PROJECT_PATH@/assets/images/pani-dajka2-1400x2330.png",
               "link": "",
               "alt": "",
               "title": "",
