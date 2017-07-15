@@ -1,14 +1,14 @@
 {
   "settings": {
     "name": "PostZdrowotny.pl",
-    "currentPage": "index.html",
+    "currentPage": "chlapowo2017.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 47,
+    "uniqCompNum": 44,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
@@ -17,9 +17,7 @@
     "publishFtpPath": "public_html",
     "publishType": "github",
     "gitHubName": "MartaRadziszowska",
-    "gitHubPath": "onoff",
-    "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "gitHubPath": "onoff"
   },
   "pages": {
     "index.html": {
@@ -41,65 +39,26 @@
           "_styles": {
             ".navbar-toggler": {
               "color": "#000"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
             }
           },
           "_anchor": "menu-6",
           "_params": {
             "hamburgerColor": "#000",
-            "sticky": false,
+            "sticky": true,
             "transparent": true,
             "color": "#fff",
             "collapsed": true,
             "logo": true,
-            "showBrand": false,
+            "showBrand": true,
             "showButtons": false
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/postzdro-617x128.png",
+              "src": "@THEME_PATH@/components/_images/logo.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
+              "link": "https://mobirise.com"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -107,9 +66,9 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\">Mobirise</a>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"></a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contact</a></li>"
         },
         {
           "alias": "purity/components",
@@ -121,15 +80,15 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/owocki%20i%20warzywka-2000x1272.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-1.jpg",
             "bgColor": "#fff8e0",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.3",
+            "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#ffffff",
             "contentAlign": "center",
             "showTitle": true,
@@ -137,14 +96,9 @@
             "showButtons": true,
             "showArrow": true
           },
-          "title": "Zapraszamy<br>niedługo",
+          "title": "dlaczego.....",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Chłapowo sierpień 2017</a>",
-          "_styles": {
-            "H1": {
-              "color": "#0275d8"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Download Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>"
         }
       ]
     },
@@ -166,14 +120,14 @@
           "_name": "ext.menu",
           "_styles": {
             ".navbar-toggler": {
-              "color": "#8f99af"
+              "color": "#000"
             }
           },
           "_anchor": "ext_menu-1",
           "_params": {
-            "hamburgerColor": "#8f99af",
+            "hamburgerColor": "#000",
             "sticky": false,
-            "transparent": true,
+            "transparent": false,
             "color": "#fff",
             "collapsed": true,
             "logo": true,
@@ -183,7 +137,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/postzdro-617x128.png",
+              "src": "@PROJECT_PATH@/assets/images/imageedit.gif",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -192,16 +146,12 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "mobirise",
-              "family": "MobiriseIcons",
-              "link": "https://www.PostZdrowotny.pl",
-              "size": 0,
-              "newWindow": true
+              "link": "https://mobirise.com",
+              "size": 0
             }
           },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\"></a>",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-white-outline btn-white\" data-app-selector=\".navbar-nav .btn\" href=\"chlapowo2017.html#header3-t\">ZAREZERWUJ</a></li> ",
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"#top\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">PostZdrowotny.pl</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".navbar-nav .btn\" href=\"chlapowo2017.html#header3-t\">ZAREZERWUJ</a></li> ",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"></a></li>"
         },
         {
@@ -219,7 +169,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1200px-beach_in_hel-2000x1500.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-1.jpg",
             "bgColor": "#fff8e0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -227,8 +177,8 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.5",
-            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.1",
+            "overlayColor": "#a8d0ea",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
@@ -236,8 +186,8 @@
             "showArrow": true
           },
           "title": "Chłapowo<br>5-17.08.2017<br>",
-          "text": "Turnus z dietą warzywno-owocową.<br>Prowadzony przez <b>Krystynę Dajkę,</b><br>w Pensjonacie \"Dalia\"",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#msg-box4-l\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+          "text": "Turnus z dieta warzywno-owocową prowadzony przez Krystynę Dajkę<br>Pensjonat Dalia",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a>"
         },
         {
           "_styles": {
@@ -323,11 +273,11 @@
           },
           "title1": "<b>Dieta</b>",
           "caption1": "odpowiednio dobrana &nbsp;pozwala odciążyć organizm oraz dostarczyć niezbędnych witamin i zachować ogólną witalność organizmu.",
-          "title2": "<b style=\"font-size: 23px; line-height: 26px; color: inherit;\">Gimastyka </b><br><b style=\"font-size: 23px; line-height: 26px; color: inherit;\">i Nordic walking</b><br>",
-          "caption2": "codzienna dawka aktywności fizycznej, poprawiająca ogólną kondycję, połączona <br>z dotlenieniem organizmu morskim powietrzem.",
-          "title3": "<b>Wykłady </b><br><b>i konsultacje dietetyka</b>",
-          "caption3": "konsultacje <br>z dietetykiem pomogom nam <br>w ustaleniu najlepszej dla Ciebie diety a na wykładach dowiesz się &nbsp;jakie nawyki żywieniowe powinneś w sobie wypracować.",
-          "title4": "<b>Kontak </b><br><b>z naturą </b><br><b>i wspaniałymi ludźmi</b>",
+          "title2": "<b style=\"font-size: 23px; line-height: 26px; color: inherit;\">Gimastyka i Nordic walking</b><br>",
+          "caption2": "codzienna dawka aktywności fizycznej, poprawiająca ogólną kondycję, połączona z dotlenieniem organizmu morskim powietrzem.",
+          "title3": "<b>Wykłady i &nbsp;konsultacje dietetyka</b>",
+          "caption3": "konsultacje z dietetykiem pomogom nam w ustaleniu najlepszej dla Ciebie diety a na wykładach dowiesz się &nbsp;jakie nawyki żywieniowe powinneś w sobie wypracować.",
+          "title4": "<b>Kontak z naturą i wspaniałymi ludźmi</b>",
           "caption4": "poprawią Twój wygląd i stan ducha. Zyskasz zdrowie, energię, wigor i siły witalne."
         },
         {
@@ -347,7 +297,7 @@
           "_anchor": "msg-box3-10",
           "_params": {
             "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
@@ -444,6 +394,15 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            ".lead UL": {
+              "text-align": "left",
+              "font-size": "16px"
+            },
+            ".lead P": {
+              "font-size": "16px"
+            }
+          },
           "_anchor": "msg-box4-m",
           "_params": {
             "imageSize": 50,
@@ -492,12 +451,7 @@
           "title": "Drag &amp; Drop Website Builder",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Istnieje możliwość <b>wykupienia</b> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Sauna / jacuzzi / basen &nbsp;</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>",
-          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" style=\"background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            \n            <div class=\"col-xs-12 col-lg-3 mbr-inner-padding text-xs-center mbr-table-cell-lg\">\n                \n                \n                <div class=\"lead mbr-editable-full\" code-editable-id=\"37\"><p>Istnieje możliwość <strong>wykupienia</strong> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Sauna / jacuzzi / basen &nbsp;</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul></div>\n                <div><a class=\"btn btn-lg btn-secondary-outline mbr-editable-button\" href=\"chlapowo2017.html#header3-t\" code-editable-id=\"38\">ZAREZERWUJ</a></div>\n            </div>\n            <div class=\"col-xs-12 col-lg-9 mbr-table-cell-lg image-size\" style=\"width: 50%;\">\n                <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/nordic-walking-1814784-1400x926.jpg\"></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": ".lead UL {\n\ttext-align: left;\n\tfont-size: 16px;\n}\n.lead P {\n\tfont-size: 18px;\n}\n",
-          "_customTemplate": true
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
         },
         {
           "alias": "purity/components",
@@ -509,11 +463,11 @@
           "_params": {
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1202.jpg",
             "bgColor": "#fff",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
@@ -524,13 +478,8 @@
             "showTitle": true,
             "showCaption": true
           },
-          "title": "<span style=\"color: inherit; font-size: 3.5rem; line-height: 1.1;\">Dom wczasowy</span><br>",
-          "caption": "<p><b>Willa DALIA</b> położona w pierwszej linii zabudowy od morza, około 300 m od plaży, w miejscowości Chłapowo, tuż za dzielnicą Władysławowa - Cetniewem. Chłapowo usytuowane na wysokim klifie, najbliższe zejście do morza wymaga pokonania dość dużej liczby schodów. Zejście płaskie do morza jest oddalone od Pensjonatu o kilkaset metrów.</p>",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "center"
-            }
-          }
+          "title": "<br>Dom wczasowy",
+          "caption": "<p><b>Willa DALIA</b> położona w pierwszej linii zabudowy od morza, około 300 m od plaży, w miejscowości Chłapowo, tuż za dzielnicą Władysławowa - Cetniewem. Chłapowo usytuowane na wysokim klifie, najbliższe zejście do morza wymaga pokonania dość dużej liczby schodów. Zejście płaskie do morza jest oddalone od Pensjonatu o kilkaset metrów</p><p><br></p>"
         },
         {
           "_styles": {
@@ -628,18 +577,13 @@
           "articleLayout": true
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<section class=\"mbr-section\" style=\"background-color: rgb(255, 255, 255); padding-top: 0px; padding-bottom: 0px;\">\n   <div class=\"container\">\n        <div class=\"row\">\n            \n            <div class=\"col-xs-12 col-lg-5 mbr-inner-padding text-xs-center mbr-table-cell-lg\">       \n                   <h2 style=\"text-align: center;\"><strong>Pensjonat \"DALIA\"</strong></h2><p style=\"font-size: 27px\"><br>ul. Aleja Żeromskiego 71<br>84-120 Chłapowo</p>\n            </div>\n                 \n            \n             <div class=\"col-xs-12 col-lg-7 mbr-inner-padding text-xs-center mbr-table-cell-lg\">\n                               <div class=\"mbr-map\">\n\n                               <!--iframe frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed/v1/place?key=AIzaSyA0Dx_boXQiwvdz8sJHoYeZNVTdoWONYkU&amp;q=place_id:ChIJJZ_SWmxbFkcRI5rmcAY796o\" allowfullscreen=\"\"></iframe-->\n\n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2299.4535751332346!2d18.373703315955385!3d54.80714598031096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fc4cab9ea2321d%3A0x525cde27a849eef2!2saleja+%C5%BBeromskiego+71%2C+84-120+W%C5%82adys%C5%82awowo!5e0!3m2!1spl!2spl!4v1500121650897\" width=\"400\" height=\"350\" frameborder=\"0\" style=\"border:0\" allowfullscreen=\"\"></iframe>\n\n\n                               </div>\n\n             </div>\n\n           </div>\n       </div>\n</section>\n\n\n",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
+          "alias": "purity/components",
           "_tags": [
-            "Extension"
+            "Theme"
           ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-18",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_name": "content1",
+          "_anchor": "content1-s",
+          "text": "<p>adres + mapka</p>"
         },
         {
           "alias": "purity/components",
@@ -647,33 +591,48 @@
             "Theme"
           ],
           "_name": "header3",
+          "_styles": {
+            "SMALL": {
+              "font-size": "20px"
+            },
+            "H3": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "header3-t",
           "title": "Zarezerwuj",
           "_params": {
             "showMeta": true
           },
-          "meta": "Koszt:  <b>2200 zł/os</b>., przy zakwaterowaniu w pokoju 2os. <br>Dopłata za pok. 2os. wykorzystany przez 1 osobę - 50% ceny turnusu.<br>Organizatorem wypoczynku jest:<b> \"Zdrówko\" Krystyna Dajka</b>,<br> NIP: 6421131180 , REGON: 276226434<br><br>Zgłoszenia poprzez wypełnienie formularza poniżej lub emailem. <br> email: <b>krystyna.zdrowko@gmail.com</b><br><b>Zgłoszenia bez wpłaty nie gwarantują miejsca na liście uczestników.</b><br><br>",
-          "_customCSS": "SMALL {\n\tfont-size: 20px;\n\ttext-align: center;\n}\nH3 {\n\ttext-align: center;\n}\n",
-          "_customHTML": "<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 3rem; padding-bottom: 0rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n                <h3 class=\"mbr-section-title display-4 mbr-editable-content\" code-editable-id=\"139\">Zarezerwuj</h3>\n                <h5 class=\"mbr-editable-content\" code-editable-id=\"140\">Koszt:  <strong>2200 zł/os</strong>.,</h5><small class=\"mbr-editable-content\" code-editable-id=\"141\"> przy zakwaterowaniu w pokoju 2os. <br>Dopłata za pok. 2os. wykorzystany przez 1 osobę 50% ceny turnusu.<br>Organizatorem wypoczynku jest:<strong><br> \"Zdrówko\" Krystyna Dajka</strong>,<br> NIP: 6421131180 , REGON: 276226434<br><br>Zgłoszenia poprzez wypełnienie formularza poniżej lub emailem. <br> email: <strong><a href=\"mailto:krystyna.zdrowko@gmail.com\">krystyna.zdrowko@gmail.com</a></strong><br><strong>Zgłoszenia bez wpłaty nie gwarantują miejsca na liście uczestników.</strong><br><br></small>\n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customTemplate": true
+          "meta": "Koszt pobytu wynosi <b>2200 zł.</b><br>Zaliczka&nbsp;<br>organizatorem jest<br>"
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "\n<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n\n<div class=\"typeform-widget\" data-url=\"https://ecclesiaeit.typeform.com/to/UxF0l6\" style=\"width: 100%; height: 500px;\"> </div> {JS_CODE_0} \n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
+          "alias": "purity/components",
           "_tags": [
-            "Extension"
+            "Theme"
           ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-19",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)) { js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() </script>"
-          ]
+          "_name": "content5",
+          "_anchor": "content5-v",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": false,
+            "showCaption": true
+          },
+          "title": "Easy to Use!",
+          "caption": "<p>fromuarz zapisow</p>"
         },
         {
           "_inherit": "msg-box5",
@@ -694,13 +653,13 @@
           },
           "_anchor": "msg-box4-u",
           "_params": {
-            "imageSize": "12",
-            "paddingTop": "2",
+            "imageSize": 50,
+            "paddingTop": 0,
             "paddingBottom": 0,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#f2f2f2",
+            "bgColor": "#fff",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -719,7 +678,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/pani%20dajka2-1400x2330.png",
+              "src": "@PROJECT_PATH@/assets/images/pani%20dajka-1400x1050.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -767,7 +726,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017by <a href=\"index.html\">PostZdrowotny.pl&nbsp;</a>"
+          "text": "Copyright (c) 2017 PostZdrowotny.pl&nbsp;"
         }
       ]
     }
