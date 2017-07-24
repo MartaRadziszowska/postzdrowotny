@@ -1201,43 +1201,43 @@
           "_params": {
             "images": [
               {
-                "thumb": "@PROJECT_PATH@/assets/images/zbojnicowka-restauracja-scale-150-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/zbojnicowka_restauracja-scale-150-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/zbojnicowka-restauracja-2000x1335-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/zbojnicowka_restauracja-2000x1335.jpg",
                 "active": false
               },
               {
-                "thumb": "@PROJECT_PATH@/assets/images/danie-w-hotelu-zbojnicowka-7-scale-150-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/danie_w_hotelu_zbojnicowka_7-scale-150-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/danie-zbojnicowka-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/danie_zbojnicowka-2000x1332.jpg",
                 "active": false
               },
               {
-                "thumb": "@PROJECT_PATH@/assets/images/basen-zbojnicowka-7-scale-150-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/basen_zbojnicowka_7-scale-150-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/basen-zbojnicowka-2000x1335-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/basen_zbojnicowka-2000x1335.jpg",
                 "active": false
               },
               {
-                "thumb": "@PROJECT_PATH@/assets/images/zbojnicowka-pok1os-1-scale-150-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/zbojnicowka_pok1os_1-scale-150-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/apartament-zbojnicowka-2000x1335-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/apartament_zbojnicowka-2000x1335.jpg",
                 "active": false
               },
               {
-                "thumb": "@PROJECT_PATH@/assets/images/apartament-zbojnicowka-4-scale-150-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/apartament_zbojnicowka_4-scale-150-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/apartament-zbojnicowka-1-2000x1335-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/apartament_zbojnicowka-1-2000x1335.jpg",
                 "active": false
               },
               {
-                "thumb": "@PROJECT_PATH@/assets/images/stoli-restauracja-zbojnicowka-scale-150-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/stoli_restauracja_zbojnicowka-scale-150-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/recepcja-zbojnicowka-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/recepcja_zbojnicowka-2000x1332.jpg",
                 "active": true
               },
               {
-                "thumb": "@PROJECT_PATH@/assets/images/danie-w-hotelu-zbojnicowka-1-scale-150-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/danie_w_hotelu_zbojnicowka_1-scale-150-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/danie-w-hotelu-zbojnicowka-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/danie_w_hotelu_zbojnicowka-2000x1332.jpg",
                 "active": false
               },
               {
-                "thumb": "@PROJECT_PATH@/assets/images/basen-zbojnicowka-5-scale-150-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/basen_zbojnicowka_5-scale-150-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/basen-zbojnicowka-1-2000x1335-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/basen_zbojnicowka-1-2000x1335.jpg",
                 "active": false
               }
             ],
