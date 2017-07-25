@@ -13,9 +13,12 @@
     "favicon": "",
     "noImageResize": "",
     "cookiesAlert": "Strona używa ciasteczek (cookies). Korzystając ze strony wyrażasz zgodę na korzystanie z cookies, zgodnie z aktualnymi ustawieniami przeglądarki.",
-    "google-analytics": "",
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-102237913-2', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishFtpPath": "public_html",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/radzisz/dominik@radzisz.com/sitesToDeploy/www.postZdrowotny.pl"
   },
   "pages": {
     "index.html": {
@@ -649,7 +652,7 @@
           },
           "meta": "Koszt:  <b>2200 zł/os</b>., przy zakwaterowaniu w pokoju 2os. <br>Dopłata za pok. 2os. wykorzystany przez 1 osobę - 50% ceny turnusu.<br>Organizatorem wypoczynku jest:<b> \"Zdrówko\" Krystyna Dajka</b>,<br> NIP: 6421131180 , REGON: 276226434<br><br>Zgłoszenia poprzez wypełnienie formularza poniżej lub emailem. <br> email: <b>krystyna.zdrowko@gmail.com</b><br><b>Zgłoszenia bez wpłaty nie gwarantują miejsca na liście uczestników.</b><br><br>",
           "_customCSS": "SMALL {\n\tfont-size: 20px;\n\ttext-align: center;\n}\nH3 {\n\ttext-align: center;\n}\n",
-          "_customHTML": "<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 3rem; padding-bottom: 0rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n                <h3 class=\"mbr-section-title display-4 mbr-editable-content\" code-editable-id=\"139\">Zarezerwuj</h3>\n                <h5 class=\"mbr-editable-content\" code-editable-id=\"140\">Koszt:  <strong>2200 zł/os</strong>.,</h5><small class=\"mbr-editable-content\" code-editable-id=\"141\"> przy zakwaterowaniu w pokoju 2os. <br>Dopłata za pok. 2os. wykorzystany przez 1 osobę 50% ceny turnusu.<br>Organizatorem wypoczynku jest:<strong><br> \"Zdrówko\" Krystyna Dajka</strong>,<br> NIP: 6421131180 , REGON: 276226434<br><br>Zgłoszenia poprzez wypełnienie formularza poniżej lub emailem. <br> email: <strong><a href=\"mailto:krystyna.zdrowko@gmail.com\">krystyna.zdrowko@gmail.com</a></strong><br><strong>Zgłoszenia bez wpłaty nie gwarantują miejsca na liście uczestników.</strong><br><br></small>\n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
+          "_customHTML": "<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 3rem; padding-bottom: 0rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n                <h3 class=\"mbr-section-title display-4 mbr-editable-content\" code-editable-id=\"47\">Zarezerwuj</h3>\n                <h5 class=\"mbr-editable-content\" code-editable-id=\"48\">Koszt:  <strong>2200 zł/os</strong>.,</h5><small class=\"mbr-editable-content\" code-editable-id=\"49\"> przy zakwaterowaniu w pokoju 2os. <br>Dopłata za pok. 2os. wykorzystany przez 1 osobę 50% ceny turnusu.<br>Organizatorem wypoczynku jest:<strong><br> \"Zdrówko\" Krystyna Dajka</strong>,<br> NIP: 6421131180 , REGON: 276226434<br><br>Zgłoszenia poprzez wypełnienie formularza poniżej lub emailem. <br> email: <strong><a href=\"mailto:krystyna.zdrowko@gmail.com\">krystyna.zdrowko@gmail.com</a></strong><br><strong>Zgłoszenia bez wpłaty nie gwarantują miejsca na liście uczestników.</strong><br><br></small>\n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customTemplate": true,
@@ -658,7 +661,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "\n<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n\n<div class=\"typeform-widget\" data-url=\"https://ecclesiaeit.typeform.com/to/UxF0l6\" style=\"width: 100%; height: 500px;\"> </div> {JS_CODE_0} \n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
+          "_customHTML": "\n<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 2rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n\n<a class=\"typeform-share button\" href=\"https://ecclesiaeit.typeform.com/to/UxF0l6?turnus=Chlapowo2017\" data-mode=\"popup\" style=\"display:inline-block;text-decoration:none;background-color:#49ac49;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;\" data-hide-headers=\"true\" data-hide-footer=\"true\" target=\"_blank\">Rezerwuję ! </a> {JS_CODE_0}\n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
           "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -667,7 +670,7 @@
           "_name": "pro.custom-html",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)) { js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() </script>"
+            "<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm_share\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)){ js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() </script>"
           ],
           "_anchor": "custom-html-19"
         },
@@ -1904,7 +1907,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "\n<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n\n<div class=\"typeform-widget\" data-url=\"https://ecclesiaeit.typeform.com/to/UxF0l6\" style=\"width: 100%; height: 500px;\"> </div> {JS_CODE_0} \n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
+          "_customHTML": "\n<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 2rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n\n<a class=\"typeform-share button\" href=\"https://ecclesiaeit.typeform.com/to/UxF0l6?turnus=Zbojnicowka2017\" data-mode=\"popup\" style=\"display:inline-block;text-decoration:none;background-color:#49ac49;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;\" data-hide-headers=\"true\" data-hide-footer=\"true\" target=\"_blank\">Rezerwuję ! </a> {JS_CODE_0}\n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
           "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -1913,7 +1916,7 @@
           "_name": "pro.custom-html",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)) { js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() </script>"
+            "<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm_share\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)){ js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() </script>"
           ],
           "_anchor": "custom-html-1p"
         },
