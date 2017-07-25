@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 80,
+    "uniqCompNum": 81,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
@@ -118,17 +118,14 @@
           "_name": "header1",
           "_styles": {
             "H1": {
-              "color": "#ffffff"
-            },
-            "DIV": {
-              "color": "#ffffff"
+              "color": "#fffcfc"
             }
           },
-          "_anchor": "header1-7",
+          "_anchor": "header1-28",
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/owocki-i-warzywka-2000x1272.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/owocki%20i%20warzywka-2000x1272.jpg",
             "bgColor": "#fff8e0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -136,17 +133,17 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0",
-            "overlayColor": "#000000",
+            "overlayOpacity": "0.4",
+            "overlayColor": "#ffffff",
             "contentAlign": "center",
             "showTitle": true,
             "showText": false,
             "showButtons": true,
-            "showArrow": false
+            "showArrow": true
           },
-          "title": "Zapraszamy<div>niedługo</div>",
+          "title": "Zapraszamy na nasze turnusy<br>",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"chlapowo2017.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Chłapowo sierpień 2017</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"zbojnicowka.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Zbójnicówka wrzesień/październik 2017</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"bachledowka2017.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Bachledówka październik 2017</a>"
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"chlapowo2017.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Chłapowo sierpień 2017</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"zbojnicowka2017.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Zbójnicówka wrzesień/październik 2017</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"bachledowka2017.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Bachledówka październik 2017</a>"
         }
       ]
     },
@@ -188,7 +185,7 @@
               "src": "@PROJECT_PATH@/assets/images/postzdro-617x128-trans-617x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -243,7 +240,7 @@
           },
           "title": "Chłapowo<br>5-17.08.2017<br>",
           "text": "Turnus z dietą warzywno-owocową.<br>Prowadzony przez <b>Krystynę Dajkę,</b><br>w Pensjonacie \"Dalia\"",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"chlapowo2017.html#msg-box4-l\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"chlapowo2017.html#msg-box4-l\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
         },
         {
           "_styles": {
@@ -848,6 +845,9 @@
             },
             "P": {
               "color": "#ffffff"
+            },
+            "DIV": {
+              "color": "#ffffff"
             }
           },
           "_anchor": "header1-1t",
@@ -872,7 +872,7 @@
           },
           "title": "<div>Bachledówka</div><div>16-26.10.2017</div>",
           "text": "Turnus z dietą warzywno-owocową.<br>Prowadzony przez <b>Krystynę Dajkę,</b><br>w Hotelu \"Bachledówka\"",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"chlapowo2017.html#msg-box4-l\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-secondary-outline\" href=\"bachledowka2017.html#content4-1v\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
         },
         {
           "_styles": {
@@ -1297,7 +1297,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "\n<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n\n<div class=\"typeform-widget\" data-url=\"https://ecclesiaeit.typeform.com/to/UxF0l6\" style=\"width: 100%; height: 500px;\"> </div> {JS_CODE_0} \n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
+          "_customHTML": "\n<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 2rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n\n<a class=\"typeform-share button\" href=\"https://ecclesiaeit.typeform.com/to/UxF0l6?turnus=Bachledowka2017\" data-mode=\"popup\" style=\"display:inline-block;text-decoration:none;background-color:#49ac49;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;\" data-hide-headers=\"true\" data-hide-footer=\"true\" target=\"_blank\">Rezerwuję ! </a> {JS_CODE_0}\n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
           "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -1306,7 +1306,7 @@
           "_name": "pro.custom-html",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)) { js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() </script>"
+            "<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm_share\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)){ js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() </script>"
           ],
           "_anchor": "custom-html-24"
         },
@@ -1468,6 +1468,15 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            "H1": {
+              "font-size": "48px",
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "header1-27",
           "_params": {
             "parallax": true,
@@ -1490,16 +1499,7 @@
           },
           "title": "Zbójnicówka<div>25.09 - 5.10.2017</div>",
           "text": "Turnus z dietą warzywno-owocową.<br>Prowadzony przez Krystynę Dajkę,<br>w Hotelu \"Zbójnicówka\".",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>",
-          "_styles": {
-            "H1": {
-              "font-size": "48px",
-              "color": "#ffffff"
-            },
-            "P": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
         },
         {
           "_styles": {
