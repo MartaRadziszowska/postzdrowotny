@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "PostZdrowotny.pl",
-    "currentPage": "bachledowka.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -140,7 +140,7 @@
           },
           "title": "Zapraszamy<br>niedługo",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"chlapowo2017.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Chłapowo sierpień 2017</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"zbojnicowka.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Zbójnicówka wrzesień/październik 2017</a>"
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"chlapowo2017.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Chłapowo sierpień 2017</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"zbojnicowka.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Zbójnicówka wrzesień/październik 2017</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"bachledowka2017.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Bachledówka październik 2017</a>"
         }
       ]
     },
@@ -767,630 +767,7 @@
         }
       ]
     },
-    "zbojnicowka.html": {
-      "settings": {
-        "title": "",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "ext.menu",
-          "_styles": {
-            ".navbar-toggler": {
-              "color": "#8f99af"
-            }
-          },
-          "_anchor": "ext_menu-1d",
-          "_params": {
-            "hamburgerColor": "#8f99af",
-            "sticky": false,
-            "transparent": true,
-            "color": "#fff",
-            "collapsed": true,
-            "logo": true,
-            "showBrand": true,
-            "showButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/postzdro-617x128-trans-617x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "mobirise",
-              "family": "MobiriseIcons",
-              "link": "https://www.PostZdrowotny.pl",
-              "size": 0,
-              "newWindow": true
-            }
-          },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\"></a>",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-white-outline btn-white\" data-app-selector=\".navbar-nav .btn\" href=\"chlapowo2017.html#header3-t\">ZAREZERWUJ</a></li> ",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"></a></li>"
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_styles": {
-            "H1": {
-              "font-size": "48px"
-            }
-          },
-          "_anchor": "header1-1e",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/gubalowka-2000x1318.jpg",
-            "bgColor": "#fff8e0",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#fff8e0",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true
-          },
-          "title": "Zbójnicówka<br>25.09 - 5.10.2017<br>",
-          "text": "Turnus z dietą warzywno-owocową.<br>Prowadzony przez <b>Krystynę Dajkę,</b><br>w Hotelu \"Zbójnicówka\"",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#msg-box4-l\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
-        },
-        {
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "text-align": "center"
-            },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center"
-            }
-          },
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-1f",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showMeta": false,
-            "showText": false,
-            "showButton": false
-          },
-          "title": "Program",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">See All Templates</a>"
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content4",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            },
-            "SPAN": {
-              "font-size": "23px"
-            },
-            "H4": {
-              "text-align": "right",
-              "font-size": "20px"
-            },
-            "B": {
-              "text-align": "center",
-              "font-size": "20px"
-            }
-          },
-          "_anchor": "content4-1g",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1328.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.4",
-            "overlayColor": "#fff8e0",
-            "columns": 4,
-            "showTitles": true,
-            "showCaptions": true
-          },
-          "title1": "<b>Dieta</b>",
-          "caption1": "odpowiednio dobrana &nbsp;pozwala odciążyć organizm oraz dostarczyć niezbędnych witamin i zachować ogólną witalność organizmu.",
-          "title2": "<b style=\"font-size: 23px; line-height: 26px; color: inherit;\">Gimastyka </b><br><b style=\"font-size: 23px; line-height: 26px; color: inherit;\">i Nordic walking</b><br>",
-          "caption2": "codzienna dawka aktywności fizycznej, poprawiająca ogólną kondycję, połączona <br>z dotlenieniem organizmu morskim powietrzem.",
-          "title3": "<b>Wykłady </b><br><b>i konsultacje dietetyka</b>",
-          "caption3": "konsultacje <br>z dietetykiem pomogom nam <br>w ustaleniu najlepszej dla Ciebie diety a na wykładach dowiesz się &nbsp;jakie nawyki żywieniowe powinneś w sobie wypracować.",
-          "title4": "<b>Kontak </b><br><b>z naturą </b><br><b>i wspaniałymi ludźmi</b>",
-          "caption4": "poprawią Twój wygląd i stan ducha. Zyskasz zdrowie, energię, wigor i siły witalne."
-        },
-        {
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "text-align": "center"
-            },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center"
-            }
-          },
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-1h",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": false,
-            "showMeta": false,
-            "showText": false,
-            "showButton": true
-          },
-          "title": "Modern Styles",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
-        },
-        {
-          "_inherit": "msg-box5",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box4",
-          "_styles": {
-            ".lead UL": {
-              "text-align": "left",
-              "font-size": "16px"
-            },
-            ".lead P": {
-              "text-align": "left",
-              "font-size": "18px"
-            }
-          },
-          "_anchor": "msg-box4-1i",
-          "_params": {
-            "imageSize": 50,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": false,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/owocki-i-warzywka-1400x890.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "Drag &amp; Drop Website Builder",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Koszt &nbsp;pobytu obejmuje<br></p><ul><li>Nocleg (pokój 2 os.)</li><li>Wyżywienie</li><li>Codzienna gimnastykę (spacery z kijkami do nordic walking, ćwiczenia w salce lub gimnastyka lecznicza)</li><li>Wykład i indywidualną konsultację dietetyka</li><li>wstęp na basen, saunę i jacuzzi hotelowe</li><li>parking</li></ul>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
-        },
-        {
-          "_inherit": "msg-box5",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box4",
-          "_params": {
-            "showTitle": false,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "imageSize": 50,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/nordic-walking-1814784-1400x926.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "Drag &amp; Drop Website Builder",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Istnieje możliwość <b>wykupienia</b> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Sauna / jacuzzi / basen &nbsp;</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>",
-          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" style=\"background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            \n            <div class=\"col-xs-12 col-lg-3 mbr-inner-padding text-xs-center mbr-table-cell-lg\">\n                \n                \n                <div class=\"lead mbr-editable-full\" code-editable-id=\"48\"><p>Istnieje możliwość <strong>wykupienia</strong> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul></div>\n                <div><a class=\"btn btn-lg btn-secondary-outline mbr-editable-button\" href=\"chlapowo2017.html#header3-t\" code-editable-id=\"49\">ZAREZERWUJ</a></div>\n            </div>\n            <div class=\"col-xs-12 col-lg-9 mbr-table-cell-lg image-size\" style=\"width: 50%;\">\n                <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/nordic-walking-1814784-1400x926.jpg\"></div>\n            </div>\n        </div>\n    </div>\n</section>\n\n",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": ".lead UL {\n\ttext-align: left;\n\tfont-size: 16px;\n}\n.lead P {\n\tfont-size: 18px;\n}\n",
-          "_customTemplate": true,
-          "_anchor": "msg-box4-1j"
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content5",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "center"
-            }
-          },
-          "_anchor": "content5-1k",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1202.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#ffffff",
-            "showTitle": true,
-            "showCaption": true
-          },
-          "title": "<span style=\"color: inherit; font-size: 3.5rem; line-height: 1.1;\">Dom wczasowy</span><br>",
-          "caption": "<p><b>Hotel Zbójnicówka</b>&nbsp;znajduje się w malowniczej miejscowości Bukowina Tatrzańska na Wierchu Olczańskim. Z jego okien roztacza się wspaniały i niepowtarzalny widok na całą panoramę Tatr, począwszy od Tatr Bielskich, aż po Tatry Zachodnie. Hotel Zbójnicówka zagwarantuje Państwu wspaniały wypoczynek.</p>"
-        },
-        {
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "text-align": "center"
-            },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center"
-            }
-          },
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-1l",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": false,
-            "showMeta": false,
-            "showText": false,
-            "showButton": false
-          },
-          "title": "Modern Styles",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">See All Templates</a>"
-        },
-        {
-          "_inherit": "gallery1",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery2",
-          "_params": {
-            "images": [
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/zbojnicowka-restauracja-2000x1335-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/zbojnicowka_restauracja-2000x1335.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/danie-zbojnicowka-2000x1332-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/danie_zbojnicowka-2000x1332.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/basen-zbojnicowka-2000x1335-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/basen_zbojnicowka-2000x1335.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/apartament-zbojnicowka-2000x1335-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/apartament_zbojnicowka-2000x1335.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/apartament-zbojnicowka-1-2000x1335-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/apartament_zbojnicowka-1-2000x1335.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/recepcja-zbojnicowka-2000x1332-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/recepcja_zbojnicowka-2000x1332.jpg",
-                "active": true
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/danie-w-hotelu-zbojnicowka-2000x1332-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/danie_w_hotelu_zbojnicowka-2000x1332.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/basen-zbojnicowka-1-2000x1335-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/basen_zbojnicowka-1-2000x1335.jpg",
-                "active": false
-              }
-            ],
-            "showBullets": true
-          },
-          "_anchor": "gallery2-1m",
-          "articleLayout": true
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<section class=\"mbr-section\" style=\"background-color: rgb(255, 255, 255); padding-top: 0px; padding-bottom: 0px;\">\n   <div class=\"container\">\n        <div class=\"row\">\n            \n            <div class=\"col-xs-12 col-lg-5 mbr-inner-padding text-xs-center mbr-table-cell-lg\">       \n                   <h2 style=\"text-align: center;\"><strong>Hotel \"Zbójnicówka\"</strong></h2><p style=\"font-size: 27px\"><br>ul. Wierch Olczański 99<br>34-530 Bukowina Tatrzańska</p>\n            </div>\n                 \n            \n             <div class=\"col-xs-12 col-lg-7 mbr-inner-padding text-xs-center mbr-table-cell-lg\">\n                               <div class=\"mbr-map\">\n\n                               <!--iframe frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed/v1/place?key=AIzaSyA0Dx_boXQiwvdz8sJHoYeZNVTdoWONYkU&amp;q=place_id:ChIJJZ_SWmxbFkcRI5rmcAY796o\" allowfullscreen=\"\"></iframe-->\n\n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2599.630187804676!2d20.078287115691527!3d49.34021987933765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715f14fdb09723f%3A0x8dc6d0bdab3e09!2sWierch+Olcza%C5%84ski+99%2C+34-530+Bukowina+Tatrza%C5%84ska!5e0!3m2!1spl!2spl!4v1500888219724\" width=\"400\" height=\"350\" frameborder=\"0\" style=\"border:0\" allowfullscreen=\"\"></iframe>\n\n\n                               </div>\n\n             </div>\n\n           </div>\n       </div>\n</section>\n\n\n\n\n\n\n",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_anchor": "custom-html-1n"
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "title": "Zarezerwuj",
-          "_params": {
-            "showMeta": true
-          },
-          "meta": "Koszt:  <b>2200 zł/os</b>., przy zakwaterowaniu w pokoju 2os. <br>Dopłata za pok. 2os. wykorzystany przez 1 osobę - 50% ceny turnusu.<br>Organizatorem wypoczynku jest:<b> \"Zdrówko\" Krystyna Dajka</b>,<br> NIP: 6421131180 , REGON: 276226434<br><br>Zgłoszenia poprzez wypełnienie formularza poniżej lub emailem. <br> email: <b>krystyna.zdrowko@gmail.com</b><br><b>Zgłoszenia bez wpłaty nie gwarantują miejsca na liście uczestników.</b><br><br>",
-          "_customCSS": "SMALL {\n\tfont-size: 20px;\n\ttext-align: center;\n}\nH3 {\n\ttext-align: center;\n}\n",
-          "_customHTML": "<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 3rem; padding-bottom: 0rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n                <h3 class=\"mbr-section-title display-4 mbr-editable-content\" code-editable-id=\"39\">Zarezerwuj</h3>\n                <h5 class=\"mbr-editable-content\" code-editable-id=\"40\">Koszt:  <strong>2500 zł/os</strong>.,</h5><small class=\"mbr-editable-content\" code-editable-id=\"41\"> przy zakwaterowaniu w pokoju 2os. <br>Dopłata za pok. 2os. wykorzystany przez 1 osobę 30zł za dzień.<br>Organizatorem wypoczynku jest:<strong><br> \"Zdrówko\" Krystyna Dajka</strong>,<br> NIP: 6421131180 , REGON: 276226434<br><br>Zgłoszenia poprzez wypełnienie formularza poniżej lub emailem. <br> email: <strong><a href=\"mailto:krystyna.zdrowko@gmail.com\">krystyna.zdrowko@gmail.com</a></strong><br><strong>Zgłoszenia bez wpłaty nie gwarantują miejsca na liście uczestników.</strong><br><br></small>\n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customTemplate": true,
-          "_anchor": "header3-1o"
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "\n<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n\n<div class=\"typeform-widget\" data-url=\"https://ecclesiaeit.typeform.com/to/UxF0l6\" style=\"width: 100%; height: 500px;\"> </div> {JS_CODE_0} \n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)) { js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() </script>"
-          ],
-          "_anchor": "custom-html-1p"
-        },
-        {
-          "_inherit": "msg-box5",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box4",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Indie Flower', cursive",
-              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
-            },
-            ".lead": {
-              "font-family": "'Indie Flower', cursive",
-              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
-            }
-          },
-          "_anchor": "msg-box4-1q",
-          "_params": {
-            "imageSize": "12",
-            "paddingTop": "2",
-            "paddingBottom": 0,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#f2f2f2",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/pani-dajka2-1400x2330.png",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "Serdecznie zapraszam",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "~Krystyna Dajka",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>"
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_styles": {
-            "P": {
-              "color": "#000000",
-              "text-align": "center"
-            }
-          },
-          "_anchor": "footer1-1r",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2017 by <a href=\"index.html\">PostZdrowotny.pl&nbsp;</a>"
-        }
-      ]
-    },
-    "bachledowka.html": {
+    "bachledowka2017.html": {
       "settings": {
         "title": "",
         "meta_descr": "",
@@ -1997,6 +1374,629 @@
             }
           },
           "_anchor": "footer1-26",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 by <a href=\"index.html\">PostZdrowotny.pl&nbsp;</a>"
+        }
+      ]
+    },
+    "zbojnicowka2017.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "ext.menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#8f99af"
+            }
+          },
+          "_anchor": "ext_menu-1d",
+          "_params": {
+            "hamburgerColor": "#8f99af",
+            "sticky": false,
+            "transparent": true,
+            "color": "#fff",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/postzdro-617x128-trans-617x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "https://www.PostZdrowotny.pl",
+              "size": 0,
+              "newWindow": true
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\"></a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-white-outline btn-white\" data-app-selector=\".navbar-nav .btn\" href=\"chlapowo2017.html#header3-t\">ZAREZERWUJ</a></li> ",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"></a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "H1": {
+              "font-size": "48px"
+            }
+          },
+          "_anchor": "header1-1e",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/gubalowka-2000x1318.jpg",
+            "bgColor": "#fff8e0",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#fff8e0",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "Zbójnicówka<br>25.09 - 5.10.2017<br>",
+          "text": "Turnus z dietą warzywno-owocową.<br>Prowadzony przez <b>Krystynę Dajkę,</b><br>w Hotelu \"Zbójnicówka\"",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#msg-box4-l\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-1f",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showMeta": false,
+            "showText": false,
+            "showButton": false
+          },
+          "title": "Program",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">See All Templates</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            },
+            "SPAN": {
+              "font-size": "23px"
+            },
+            "H4": {
+              "text-align": "right",
+              "font-size": "20px"
+            },
+            "B": {
+              "text-align": "center",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "content4-1g",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1328.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#fff8e0",
+            "columns": 4,
+            "showTitles": true,
+            "showCaptions": true
+          },
+          "title1": "<b>Dieta</b>",
+          "caption1": "odpowiednio dobrana &nbsp;pozwala odciążyć organizm oraz dostarczyć niezbędnych witamin i zachować ogólną witalność organizmu.",
+          "title2": "<b style=\"font-size: 23px; line-height: 26px; color: inherit;\">Gimastyka </b><br><b style=\"font-size: 23px; line-height: 26px; color: inherit;\">i Nordic walking</b><br>",
+          "caption2": "codzienna dawka aktywności fizycznej, poprawiająca ogólną kondycję, połączona <br>z dotlenieniem organizmu morskim powietrzem.",
+          "title3": "<b>Wykłady </b><br><b>i konsultacje dietetyka</b>",
+          "caption3": "konsultacje <br>z dietetykiem pomogom nam <br>w ustaleniu najlepszej dla Ciebie diety a na wykładach dowiesz się &nbsp;jakie nawyki żywieniowe powinneś w sobie wypracować.",
+          "title4": "<b>Kontak </b><br><b>z naturą </b><br><b>i wspaniałymi ludźmi</b>",
+          "caption4": "poprawią Twój wygląd i stan ducha. Zyskasz zdrowie, energię, wigor i siły witalne."
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-1h",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showMeta": false,
+            "showText": false,
+            "showButton": true
+          },
+          "title": "Modern Styles",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            ".lead UL": {
+              "text-align": "left",
+              "font-size": "16px"
+            },
+            ".lead P": {
+              "text-align": "left",
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "msg-box4-1i",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": false,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/owocki-i-warzywka-1400x890.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Drag &amp; Drop Website Builder",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Koszt &nbsp;pobytu obejmuje<br></p><ul><li>Nocleg (pokój 2 os.)</li><li>Wyżywienie</li><li>Codzienna gimnastykę (spacery z kijkami do nordic walking, ćwiczenia w salce lub gimnastyka lecznicza)</li><li>Wykład i indywidualną konsultację dietetyka</li><li>wstęp na basen, saunę i jacuzzi hotelowe</li><li>parking</li></ul>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_params": {
+            "showTitle": false,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/nordic-walking-1814784-1400x926.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Drag &amp; Drop Website Builder",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Istnieje możliwość <b>wykupienia</b> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Sauna / jacuzzi / basen &nbsp;</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" style=\"background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            \n            <div class=\"col-xs-12 col-lg-3 mbr-inner-padding text-xs-center mbr-table-cell-lg\">\n                \n                \n                <div class=\"lead mbr-editable-full\" code-editable-id=\"48\"><p>Istnieje możliwość <strong>wykupienia</strong> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul></div>\n                <div><a class=\"btn btn-lg btn-secondary-outline mbr-editable-button\" href=\"chlapowo2017.html#header3-t\" code-editable-id=\"49\">ZAREZERWUJ</a></div>\n            </div>\n            <div class=\"col-xs-12 col-lg-9 mbr-table-cell-lg image-size\" style=\"width: 50%;\">\n                <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/nordic-walking-1814784-1400x926.jpg\"></div>\n            </div>\n        </div>\n    </div>\n</section>\n\n",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".lead UL {\n\ttext-align: left;\n\tfont-size: 16px;\n}\n.lead P {\n\tfont-size: 18px;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "msg-box4-1j"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "content5-1k",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1202.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#ffffff",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "<span style=\"color: inherit; font-size: 3.5rem; line-height: 1.1;\">Dom wczasowy</span><br>",
+          "caption": "<p><b>Hotel Zbójnicówka</b>&nbsp;znajduje się w malowniczej miejscowości Bukowina Tatrzańska na Wierchu Olczańskim. Z jego okien roztacza się wspaniały i niepowtarzalny widok na całą panoramę Tatr, począwszy od Tatr Bielskich, aż po Tatry Zachodnie. Hotel Zbójnicówka zagwarantuje Państwu wspaniały wypoczynek.</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-1l",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showMeta": false,
+            "showText": false,
+            "showButton": false
+          },
+          "title": "Modern Styles",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">See All Templates</a>"
+        },
+        {
+          "_inherit": "gallery1",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/zbojnicowka-restauracja-2000x1335-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/zbojnicowka_restauracja-2000x1335.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/danie-zbojnicowka-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/danie_zbojnicowka-2000x1332.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/basen-zbojnicowka-2000x1335-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/basen_zbojnicowka-2000x1335.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/apartament-zbojnicowka-2000x1335-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/apartament_zbojnicowka-2000x1335.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/apartament-zbojnicowka-1-2000x1335-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/apartament_zbojnicowka-1-2000x1335.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/recepcja-zbojnicowka-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/recepcja_zbojnicowka-2000x1332.jpg",
+                "active": true
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/danie-w-hotelu-zbojnicowka-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/danie_w_hotelu_zbojnicowka-2000x1332.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/basen-zbojnicowka-1-2000x1335-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/basen_zbojnicowka-1-2000x1335.jpg",
+                "active": false
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "gallery2-1m",
+          "articleLayout": true
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<section class=\"mbr-section\" style=\"background-color: rgb(255, 255, 255); padding-top: 0px; padding-bottom: 0px;\">\n   <div class=\"container\">\n        <div class=\"row\">\n            \n            <div class=\"col-xs-12 col-lg-5 mbr-inner-padding text-xs-center mbr-table-cell-lg\">       \n                   <h2 style=\"text-align: center;\"><strong>Hotel \"Zbójnicówka\"</strong></h2><p style=\"font-size: 27px\"><br>ul. Wierch Olczański 99<br>34-530 Bukowina Tatrzańska</p>\n            </div>\n                 \n            \n             <div class=\"col-xs-12 col-lg-7 mbr-inner-padding text-xs-center mbr-table-cell-lg\">\n                               <div class=\"mbr-map\">\n\n                               <!--iframe frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed/v1/place?key=AIzaSyA0Dx_boXQiwvdz8sJHoYeZNVTdoWONYkU&amp;q=place_id:ChIJJZ_SWmxbFkcRI5rmcAY796o\" allowfullscreen=\"\"></iframe-->\n\n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2599.630187804676!2d20.078287115691527!3d49.34021987933765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715f14fdb09723f%3A0x8dc6d0bdab3e09!2sWierch+Olcza%C5%84ski+99%2C+34-530+Bukowina+Tatrza%C5%84ska!5e0!3m2!1spl!2spl!4v1500888219724\" width=\"400\" height=\"350\" frameborder=\"0\" style=\"border:0\" allowfullscreen=\"\"></iframe>\n\n\n                               </div>\n\n             </div>\n\n           </div>\n       </div>\n</section>\n\n\n\n\n\n\n",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-1n"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "title": "Zarezerwuj",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "Koszt:  <b>2200 zł/os</b>., przy zakwaterowaniu w pokoju 2os. <br>Dopłata za pok. 2os. wykorzystany przez 1 osobę - 50% ceny turnusu.<br>Organizatorem wypoczynku jest:<b> \"Zdrówko\" Krystyna Dajka</b>,<br> NIP: 6421131180 , REGON: 276226434<br><br>Zgłoszenia poprzez wypełnienie formularza poniżej lub emailem. <br> email: <b>krystyna.zdrowko@gmail.com</b><br><b>Zgłoszenia bez wpłaty nie gwarantują miejsca na liście uczestników.</b><br><br>",
+          "_customCSS": "SMALL {\n\tfont-size: 20px;\n\ttext-align: center;\n}\nH3 {\n\ttext-align: center;\n}\n",
+          "_customHTML": "<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 3rem; padding-bottom: 0rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n                <h3 class=\"mbr-section-title display-4 mbr-editable-content\" code-editable-id=\"39\">Zarezerwuj</h3>\n                <h5 class=\"mbr-editable-content\" code-editable-id=\"40\">Koszt:  <strong>2500 zł/os</strong>.,</h5><small class=\"mbr-editable-content\" code-editable-id=\"41\"> przy zakwaterowaniu w pokoju 2os. <br>Dopłata za pok. 2os. wykorzystany przez 1 osobę 30zł za dzień.<br>Organizatorem wypoczynku jest:<strong><br> \"Zdrówko\" Krystyna Dajka</strong>,<br> NIP: 6421131180 , REGON: 276226434<br><br>Zgłoszenia poprzez wypełnienie formularza poniżej lub emailem. <br> email: <strong><a href=\"mailto:krystyna.zdrowko@gmail.com\">krystyna.zdrowko@gmail.com</a></strong><br><strong>Zgłoszenia bez wpłaty nie gwarantują miejsca na liście uczestników.</strong><br><br></small>\n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_anchor": "header3-1o"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "\n<section style=\"text-align: center; background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\" class=\"mbr-section\">\n   <div class=\"container\">\n\n        <div class=\"row\">\n        \n            <div class=\"col-md-8 col-md-offset-2\">\n\n<div class=\"typeform-widget\" data-url=\"https://ecclesiaeit.typeform.com/to/UxF0l6\" style=\"width: 100%; height: 500px;\"> </div> {JS_CODE_0} \n        \n            </div>\n        </div>\n    </div>\n</section>\n\n\n\n\n",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)) { js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() </script>"
+          ],
+          "_anchor": "custom-html-1p"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
+            },
+            ".lead": {
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
+            }
+          },
+          "_anchor": "msg-box4-1q",
+          "_params": {
+            "imageSize": "12",
+            "paddingTop": "2",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#f2f2f2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/pani-dajka2-1400x2330.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Serdecznie zapraszam",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "~Krystyna Dajka",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#000000",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "footer1-1r",
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "0",
