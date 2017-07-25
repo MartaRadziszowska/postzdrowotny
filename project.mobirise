@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 79,
+    "uniqCompNum": 80,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
@@ -118,7 +118,10 @@
           "_name": "header1",
           "_styles": {
             "H1": {
-              "color": "#0275d8"
+              "color": "#ffffff"
+            },
+            "DIV": {
+              "color": "#ffffff"
             }
           },
           "_anchor": "header1-7",
@@ -133,15 +136,15 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.3",
-            "overlayColor": "#ffffff",
+            "overlayOpacity": "0",
+            "overlayColor": "#000000",
             "contentAlign": "center",
             "showTitle": true,
             "showText": false,
             "showButtons": true,
             "showArrow": false
           },
-          "title": "Zapraszamy<br>niedługo",
+          "title": "Zapraszamy<div>niedługo</div>",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"chlapowo2017.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Chłapowo sierpień 2017</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"zbojnicowka.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Zbójnicówka wrzesień/październik 2017</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"bachledowka2017.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Bachledówka październik 2017</a>"
         }
@@ -200,7 +203,7 @@
             }
           },
           "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\"></a>",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-white-outline btn-white\" data-app-selector=\".navbar-nav .btn\" href=\"chlapowo2017.html#header3-t\">ZAREZERWUJ</a></li> ",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-success-outline btn-success\" data-app-selector=\".navbar-nav .btn\" href=\"chlapowo2017.html#header3-t\">ZAREZERWUJ</a></li> ",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"></a></li>"
         },
         {
@@ -211,7 +214,11 @@
           "_name": "header1",
           "_styles": {
             "H1": {
-              "font-size": "48px"
+              "font-size": "48px",
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
             }
           },
           "_anchor": "header1-8",
@@ -227,7 +234,7 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.5",
-            "overlayColor": "#ffffff",
+            "overlayColor": "#000000",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
@@ -236,7 +243,7 @@
           },
           "title": "Chłapowo<br>5-17.08.2017<br>",
           "text": "Turnus z dietą warzywno-owocową.<br>Prowadzony przez <b>Krystynę Dajkę,</b><br>w Pensjonacie \"Dalia\"",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#msg-box4-l\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"chlapowo2017.html#msg-box4-l\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
         },
         {
           "_styles": {
@@ -314,8 +321,8 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.1",
-            "overlayColor": "#a8d0ea",
+            "overlayOpacity": "0.3",
+            "overlayColor": "#000000",
             "columns": 4,
             "showTitles": true,
             "showCaptions": true
@@ -367,7 +374,7 @@
           "title": "Modern Styles",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -434,7 +441,7 @@
           "title": "Drag &amp; Drop Website Builder",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Koszt &nbsp;pobytu obejmuje<br></p><ul><li>Nocleg (pokój 2 os.)</li><li>Wyżywienie</li><li>Codzienna gimnastykę (spacery z kijkami do nordic walking, ćwiczenia w salce lub gimnastyka lecznicza)</li><li>Wykład i indywidualną konsultację dietetyka</li></ul>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -491,7 +498,7 @@
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Istnieje możliwość <b>wykupienia</b> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Sauna / jacuzzi / basen &nbsp;</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>",
-          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" style=\"background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            \n            <div class=\"col-xs-12 col-lg-3 mbr-inner-padding text-xs-center mbr-table-cell-lg\">\n                \n                \n                <div class=\"lead mbr-editable-full\" code-editable-id=\"37\"><p>Istnieje możliwość <strong>wykupienia</strong> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Sauna / jacuzzi / basen &nbsp;</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul></div>\n                <div><a class=\"btn btn-lg btn-secondary-outline mbr-editable-button\" href=\"chlapowo2017.html#header3-t\" code-editable-id=\"38\">ZAREZERWUJ</a></div>\n            </div>\n            <div class=\"col-xs-12 col-lg-9 mbr-table-cell-lg image-size\" style=\"width: 50%;\">\n                <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/nordic-walking-1814784-1400x926.jpg\"></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" style=\"background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            \n            <div class=\"col-xs-12 col-lg-3 mbr-inner-padding text-xs-center mbr-table-cell-lg\">\n                \n                \n                <div class=\"lead mbr-editable-full\" code-editable-id=\"37\"><p>Istnieje możliwość <strong>wykupienia</strong> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Sauna / jacuzzi / basen &nbsp;</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul></div>\n                <div><a class=\"btn btn-lg mbr-editable-button btn-success-outline btn-success\" href=\"chlapowo2017.html#header3-t\" code-editable-id=\"38\">ZAREZERWUJ</a></div>\n            </div>\n            <div class=\"col-xs-12 col-lg-9 mbr-table-cell-lg image-size\" style=\"width: 50%;\">\n                <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/nordic-walking-1814784-1400x926.jpg\"></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": ".lead UL {\n\ttext-align: left;\n\tfont-size: 16px;\n}\n.lead P {\n\tfont-size: 18px;\n}\n",
@@ -823,7 +830,7 @@
             }
           },
           "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\"></a>",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-white-outline btn-white\" data-app-selector=\".navbar-nav .btn\" href=\"chlapowo2017.html#header3-t\">ZAREZERWUJ</a></li> ",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-success-outline btn-success\" data-app-selector=\".navbar-nav .btn\" href=\"chlapowo2017.html#header3-t\">ZAREZERWUJ</a></li> ",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"></a></li>"
         },
         {
@@ -835,6 +842,12 @@
           "_styles": {
             "H1": {
               "font-size": "48px"
+            },
+            "SPAN": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
             }
           },
           "_anchor": "header1-1t",
@@ -849,17 +862,17 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
-            "overlayColor": "#fff8e0",
+            "overlayOpacity": "0.3",
+            "overlayColor": "#000000",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
             "showArrow": true
           },
-          "title": "<span style=\"color: inherit; line-height: 1.1;\">Bachledówka</span><br><span style=\"color: inherit; line-height: 1.1;\">16-26.10.2017</span><br>",
+          "title": "<div>Bachledówka</div><div>16-26.10.2017</div>",
           "text": "Turnus z dietą warzywno-owocową.<br>Prowadzony przez <b>Krystynę Dajkę,</b><br>w Hotelu \"Bachledówka\"",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#msg-box4-l\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"chlapowo2017.html#msg-box4-l\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
         },
         {
           "_styles": {
@@ -937,8 +950,8 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0",
-            "overlayColor": "#fff8e0",
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000000",
             "columns": 4,
             "showTitles": true,
             "showCaptions": true
@@ -990,7 +1003,7 @@
           "title": "Modern Styles",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -1057,7 +1070,7 @@
           "title": "Drag &amp; Drop Website Builder",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Koszt &nbsp;pobytu obejmuje<br></p><ul><li>Nocleg (pokój 2 os.)</li><li>Wyżywienie</li><li>Codzienna gimnastykę (spacery z kijkami do nordic walking, ćwiczenia w salce lub gimnastyka lecznicza)</li><li>Wykład i indywidualną konsultację dietetyka</li><li>wstęp na basen, saunę i jacuzzi hotelowe</li><li>Salę bilardową</li><li>parking</li></ul>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -1114,7 +1127,7 @@
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Istnieje możliwość <b>wykupienia</b> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Sauna / jacuzzi / basen &nbsp;</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>",
-          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" style=\"background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            \n            <div class=\"col-xs-12 col-lg-3 mbr-inner-padding text-xs-center mbr-table-cell-lg\">\n                \n                \n                <div class=\"lead mbr-editable-full\" code-editable-id=\"48\"><p>Istnieje możliwość <strong>wykupienia</strong> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul></div>\n                <div><a class=\"btn btn-lg btn-secondary-outline mbr-editable-button\" href=\"chlapowo2017.html#header3-t\" code-editable-id=\"49\">ZAREZERWUJ</a></div>\n            </div>\n            <div class=\"col-xs-12 col-lg-9 mbr-table-cell-lg image-size\" style=\"width: 50%;\">\n                <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/nordic-walking-1814784-1400x926.jpg\"></div>\n            </div>\n        </div>\n    </div>\n</section>\n\n",
+          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" style=\"background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            \n            <div class=\"col-xs-12 col-lg-3 mbr-inner-padding text-xs-center mbr-table-cell-lg\">\n                \n                \n                <div class=\"lead mbr-editable-full\" code-editable-id=\"48\"><p>Istnieje możliwość <strong>wykupienia</strong> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul></div>\n                <div><a class=\"btn btn-lg mbr-editable-button btn-success-outline btn-success\" href=\"chlapowo2017.html#header3-t\" code-editable-id=\"49\">ZAREZERWUJ</a></div>\n            </div>\n            <div class=\"col-xs-12 col-lg-9 mbr-table-cell-lg image-size\" style=\"width: 50%;\">\n                <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/nordic-walking-1814784-1400x926.jpg\"></div>\n            </div>\n        </div>\n    </div>\n</section>\n\n",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": ".lead UL {\n\ttext-align: left;\n\tfont-size: 16px;\n}\n.lead P {\n\tfont-size: 18px;\n}\n",
@@ -1455,12 +1468,7 @@
             "Theme"
           ],
           "_name": "header1",
-          "_styles": {
-            "H1": {
-              "font-size": "48px"
-            }
-          },
-          "_anchor": "header1-1e",
+          "_anchor": "header1-27",
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
@@ -1472,17 +1480,26 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#fff8e0",
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000000",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
             "showArrow": true
           },
-          "title": "Zbójnicówka<br>25.09 - 5.10.2017<br>",
-          "text": "Turnus z dietą warzywno-owocową.<br>Prowadzony przez <b>Krystynę Dajkę,</b><br>w Hotelu \"Zbójnicówka\"",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#msg-box4-l\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+          "title": "Zbójnicówka<div>25.09 - 5.10.2017</div>",
+          "text": "Turnus z dietą warzywno-owocową.<br>Prowadzony przez Krystynę Dajkę,<br>w Hotelu \"Zbójnicówka\".",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SZCZEGÓŁY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>",
+          "_styles": {
+            "H1": {
+              "font-size": "48px",
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_styles": {
@@ -1561,7 +1578,7 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.4",
-            "overlayColor": "#fff8e0",
+            "overlayColor": "#000000",
             "columns": 4,
             "showTitles": true,
             "showCaptions": true
@@ -1613,7 +1630,7 @@
           "title": "Modern Styles",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -1680,7 +1697,7 @@
           "title": "Drag &amp; Drop Website Builder",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Koszt &nbsp;pobytu obejmuje<br></p><ul><li>Nocleg (pokój 2 os.)</li><li>Wyżywienie</li><li>Codzienna gimnastykę (spacery z kijkami do nordic walking, ćwiczenia w salce lub gimnastyka lecznicza)</li><li>Wykład i indywidualną konsultację dietetyka</li><li>wstęp na basen, saunę i jacuzzi hotelowe</li><li>parking</li></ul>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -1737,7 +1754,7 @@
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Istnieje możliwość <b>wykupienia</b> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Sauna / jacuzzi / basen &nbsp;</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"chlapowo2017.html#header3-t\" data-toolbar=\"-mbrBtnMove\">ZAREZERWUJ</a>",
-          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" style=\"background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            \n            <div class=\"col-xs-12 col-lg-3 mbr-inner-padding text-xs-center mbr-table-cell-lg\">\n                \n                \n                <div class=\"lead mbr-editable-full\" code-editable-id=\"48\"><p>Istnieje możliwość <strong>wykupienia</strong> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul></div>\n                <div><a class=\"btn btn-lg btn-secondary-outline mbr-editable-button\" href=\"chlapowo2017.html#header3-t\" code-editable-id=\"49\">ZAREZERWUJ</a></div>\n            </div>\n            <div class=\"col-xs-12 col-lg-9 mbr-table-cell-lg image-size\" style=\"width: 50%;\">\n                <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/nordic-walking-1814784-1400x926.jpg\"></div>\n            </div>\n        </div>\n    </div>\n</section>\n\n",
+          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" style=\"background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            \n            <div class=\"col-xs-12 col-lg-3 mbr-inner-padding text-xs-center mbr-table-cell-lg\">\n                \n                \n                <div class=\"lead mbr-editable-full\" code-editable-id=\"48\"><p>Istnieje możliwość <strong>wykupienia</strong> dodatkowych usług, między innymi:</p><ul><li>Masaż</li><li>Dodatkowa ukierunkowana rehabilitacja</li><li>Zabiegi kosmetyczne</li><li>Testy na nietolerancje pokarmowe</li><li>Badanie organizmu urządzeniem Bio-Scan</li></ul></div>\n                <div><a class=\"btn btn-lg mbr-editable-button btn-success-outline btn-success\" href=\"chlapowo2017.html#header3-t\" code-editable-id=\"49\">ZAREZERWUJ</a></div>\n            </div>\n            <div class=\"col-xs-12 col-lg-9 mbr-table-cell-lg image-size\" style=\"width: 50%;\">\n                <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/nordic-walking-1814784-1400x926.jpg\"></div>\n            </div>\n        </div>\n    </div>\n</section>\n\n",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": ".lead UL {\n\ttext-align: left;\n\tfont-size: 16px;\n}\n.lead P {\n\tfont-size: 18px;\n}\n",
